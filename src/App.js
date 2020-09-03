@@ -13,6 +13,7 @@ import Review from './components/Review/Review';
 import Inventory from './components/Inventory/Inventory';
 import NotFound from './components/NotFound';
 import ProductDetail from './components/ProductDetail';
+import Product from './components/Product/Product';
 
 
 
@@ -35,7 +36,7 @@ function App() {
 <Route exact path="/inventory" component={Inventory}>
 
 </Route>
-<Route exact path="/product/:productKey" component={ProductDetail}></Route>
+<Route exact path="/product/:productKey" ><ProductDetail></ProductDetail></Route>
      
     
     <Route exact path="*" component={NotFound}>

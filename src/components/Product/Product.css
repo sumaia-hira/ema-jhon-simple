@@ -15,6 +15,7 @@
     height: 30px;
     border: 1px solid rgb(53, 49, 49);
     border-radius: 5px;
-    font-weight: bold;
+    
     cursor: pointer;
+    margin-bottom: 5px;
 }
